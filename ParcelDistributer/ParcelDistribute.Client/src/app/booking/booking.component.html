@@ -1,0 +1,41 @@
+<div class="row">
+    <div class="col-md-12">
+        <h1 class="display-4">New Booking</h1>
+        <hr>
+        <app-booking-form></app-booking-form>
+    </div>
+</div>
+<br>
+<div class="row">
+    <h1 class="display-4">Booking Details</h1>
+    <div class="col-md-12">
+        <table class="table">
+            <thead class="thead-light">
+                <tr>
+                    <th>Booking No</th>
+                    <th>Customer</th>
+                    <th>Delivery Date</th>
+                    <th>Distance</th>
+                    <th>Goods Type</th>
+                    <th>Driver</th>
+                    <th>Weight</th>                    
+                    <th>Price</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tr *ngFor="let pd of service.list">
+                <td (click)="populateForm(pd)">{{pd.varBookingNo}}</td>
+                <td (click)="populateForm(pd)">{{pd.varCustomerName}}</td>
+                <td (click)="populateForm(pd)">{{pd.dtDeliveryDate}}</td>
+                <td (click)="populateForm(pd)">{{pd.varFromAddress}} - {{pd.varToAddress}} ({{pd.numDistance}} KM)</td>
+                <td (click)="populateForm(pd)">{{pd.varGoodsTypeName}}</td>
+                <td (click)="populateForm(pd)">{{pd.varDriverName}}</td>    
+                <td (click)="populateForm(pd)">{{pd.numWeight}}</td> 
+                <td (click)="populateForm(pd)">{{pd.numPrice}}</td>     
+                <td>
+                    <i class="far fa-trash-alt fa-lg text-danger" (click)="onDelete(pd.numBookingID)"></i> 
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "FaZSXS4gYpLslkbUFhAmwd3R9fRaAJ0RnGPHlMEGFlg=",
+  "Source": "ParcelDistributer.API",
+  "BasePath": "_content/ParcelDistributer.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

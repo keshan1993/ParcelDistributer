@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class Driver {}","map":{"version":3,"mappings":"AAAA,OAAM,MAAOA,MAAM","names":["Driver"],"sourceRoot":"","sources":["C:\\Users\\ESyAdmin\\Desktop\\QualitApps\\ParcelDistributer\\ParcelDistribute.Client\\src\\app\\driver\\driver.model.ts"],"sourcesContent":["export class Driver {\n}\n"]},"metadata":{},"sourceType":"module","externalDependencies":[]}

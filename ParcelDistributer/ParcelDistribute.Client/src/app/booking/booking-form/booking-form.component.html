@@ -1,0 +1,72 @@
+<form novalidate autocomplete="off" #form="ngForm" (submit)="onSubmit(form)">
+    <input type="hidden" name="numBookingID" [value]="service.formData.numBookingID" />
+    <div class="form-row">
+        <div class="from-grop col-md-4">
+            <label>Select Customer<sup class="text-danger">*</sup></label>
+            <p-dropdown id="customer" [options]="customerList" [style]="{'width':'100%'}"
+                optionLabel="varCustomerName" optionValue="numCustomerID" name="customer"
+                [(ngModel)]="service.formData.numCustomerID" placeholder="Customer"
+                [required]="true">
+            </p-dropdown>
+        </div>
+        <div class="form-group col-md-4">
+            <label>Delivery Date<sup class="text-danger">*</sup></label>
+            <input class="form-control form-control-lg" placeholder="YYYY/MM/DD..." name="dtDeliveryDate"
+                #dtDeliveryDate="ngModel" [(ngModel)]="service.formData.dtDeliveryDate" (keyup)="loadAvailableDriverList($event)"
+                required [class.invalid]="dtDeliveryDate.invalid &#038;&#038; dtDeliveryDate.touched">
+        </div>
+        <div class="from-grop col-md-4">
+            <label>Select Driver<sup class="text-danger">*</sup></label>
+            <p-dropdown id="driver" [options]="driverList" [style]="{'width':'100%'}"
+                optionLabel="varDriverName" optionValue="numDriverID" name="item"
+                [(ngModel)]="service.formData.numDriverID" placeholder="Driver"
+                [required]="true">
+            </p-dropdown>
+        </div>
+    </div>
+    <div class="form-row" style="margin-top: 10px;">
+        <div class="form-group col-md-4">
+            <label>From<sup class="text-danger">*</sup></label>
+            <input class="form-control form-control-lg" placeholder="From..." name="varFromAddress"
+                #varFromAddress="ngModel" [(ngModel)]="service.formData.varFromAddress"
+                required [class.invalid]="varFromAddress.invalid &#038;&#038; varFromAddress.touched">
+        </div>
+        <div class="form-group col-md-4">
+            <label>To<sup class="text-danger">*</sup></label>
+            <input class="form-control form-control-lg" placeholder="To..." name="varToAddress"
+            #varToAddress="ngModel" [(ngModel)]="service.formData.varToAddress"
+            required [class.invalid]="varToAddress.invalid &#038;&#038; varToAddress.touched">
+        </div> 
+        <div class="form-group col-md-4">
+            <label>Distance (KM)<sup class="text-danger">*</sup></label>
+            <input class="form-control form-control-lg" placeholder="Distance..." name="numDistance"
+                #numDistance="ngModel" [(ngModel)]="service.formData.numDistance"
+                required [class.invalid]="numDistance.invalid &#038;&#038; numDistance.touched">
+        </div>
+    </div>
+    <div class="form-row" style="margin-top: 10px;">
+        <div class="from-grop col-md-4">
+            <label>Select Goods Type<sup class="text-danger">*</sup></label>
+            <p-dropdown id="goodsType" [options]="goodsTypeList" [style]="{'width':'100%'}"
+                optionLabel="varGoodsTypeName" optionValue="numGoodsTypeID" name="goodsType"
+                [(ngModel)]="service.formData.numGoodsTypeID" placeholder="Goods Type"
+                [required]="true">
+            </p-dropdown>
+        </div>
+        <div class="form-group col-md-4">
+            <label>Weight (KG)<sup class="text-danger">*</sup></label>
+            <input class="form-control form-control-lg" placeholder="Weight..." name="numWeight"
+            #numWeight="ngModel" [(ngModel)]="service.formData.numWeight"
+            required [class.invalid]="numWeight.invalid &#038;&#038; numWeight.touched">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Price<sup class="text-danger">*</sup></label>
+            <input class="form-control form-control-lg" placeholder="numPrice..." name="numPrice"
+                #numPrice="ngModel" [(ngModel)]="service.formData.numPrice"
+                required [class.invalid]="numPrice.invalid &#038;&#038; numPrice.touched">
+        </div>
+    </div>
+    <div class="form-group">
+        <button class="btn btn-primary" type="submit" [disabled]="form.invalid">SUBMIT</button>
+    </div>
+</form>

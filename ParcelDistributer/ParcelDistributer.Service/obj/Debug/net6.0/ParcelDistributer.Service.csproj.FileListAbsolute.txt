@@ -1,0 +1,17 @@
+C:\Users\ESyAdmin\Desktop\QualitApps\ParcelDistributer\ParcelDistributer.Service\bin\Debug\net6.0\ParcelDistributer.Service.deps.json
+C:\Users\ESyAdmin\Desktop\QualitApps\ParcelDistributer\ParcelDistributer.Service\bin\Debug\net6.0\ParcelDistributer.Service.runtimeconfig.json
+C:\Users\ESyAdmin\Desktop\QualitApps\ParcelDistributer\ParcelDistributer.Service\bin\Debug\net6.0\ParcelDistributer.Service.dll
+C:\Users\ESyAdmin\Desktop\QualitApps\ParcelDistributer\ParcelDistributer.Service\bin\Debug\net6.0\ParcelDistributer.Service.pdb
+C:\Users\ESyAdmin\Desktop\QualitApps\ParcelDistributer\ParcelDistributer.Service\bin\Debug\net6.0\ParcelDistributer.DataAccess.dll
+C:\Users\ESyAdmin\Desktop\QualitApps\ParcelDistributer\ParcelDistributer.Service\bin\Debug\net6.0\ParcelDistributer.DataAccess.pdb
+C:\Users\ESyAdmin\Desktop\QualitApps\ParcelDistributer\ParcelDistributer.Service\obj\Debug\net6.0\ParcelDistributer.Service.csproj.AssemblyReference.cache
+C:\Users\ESyAdmin\Desktop\QualitApps\ParcelDistributer\ParcelDistributer.Service\obj\Debug\net6.0\ParcelDistributer.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ESyAdmin\Desktop\QualitApps\ParcelDistributer\ParcelDistributer.Service\obj\Debug\net6.0\ParcelDistributer.Service.AssemblyInfoInputs.cache
+C:\Users\ESyAdmin\Desktop\QualitApps\ParcelDistributer\ParcelDistributer.Service\obj\Debug\net6.0\ParcelDistributer.Service.AssemblyInfo.cs
+C:\Users\ESyAdmin\Desktop\QualitApps\ParcelDistributer\ParcelDistributer.Service\obj\Debug\net6.0\ParcelDistributer.Service.csproj.CoreCompileInputs.cache
+C:\Users\ESyAdmin\Desktop\QualitApps\ParcelDistributer\ParcelDistributer.Service\obj\Debug\net6.0\ParcelDistributer.Service.csproj.CopyComplete
+C:\Users\ESyAdmin\Desktop\QualitApps\ParcelDistributer\ParcelDistributer.Service\obj\Debug\net6.0\ParcelDistributer.Service.dll
+C:\Users\ESyAdmin\Desktop\QualitApps\ParcelDistributer\ParcelDistributer.Service\obj\Debug\net6.0\refint\ParcelDistributer.Service.dll
+C:\Users\ESyAdmin\Desktop\QualitApps\ParcelDistributer\ParcelDistributer.Service\obj\Debug\net6.0\ParcelDistributer.Service.pdb
+C:\Users\ESyAdmin\Desktop\QualitApps\ParcelDistributer\ParcelDistributer.Service\obj\Debug\net6.0\ParcelDistributer.Service.genruntimeconfig.cache
+C:\Users\ESyAdmin\Desktop\QualitApps\ParcelDistributer\ParcelDistributer.Service\obj\Debug\net6.0\ref\ParcelDistributer.Service.dll

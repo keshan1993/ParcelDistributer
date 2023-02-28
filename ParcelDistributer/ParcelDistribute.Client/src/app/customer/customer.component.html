@@ -1,0 +1,33 @@
+<div class="row">
+    <div class="col-md-12">
+        <h1 class="display-4">New Customer</h1>
+        <hr>
+        <app-customer-form></app-customer-form>
+    </div>
+</div>
+<br>
+<div class="row">
+    <h1 class="display-4">Customer Details</h1>
+    <div class="col-md-12">
+        <table class="table">
+            <thead class="thead-light">
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>NIC</th>
+                    <th>Contact No</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tr *ngFor="let pd of service.list">
+                <td (click)="populateForm(pd)">{{pd.varCustomerName}}</td>
+                <td (click)="populateForm(pd)">{{pd.varCustomerAddress}}</td>
+                <td (click)="populateForm(pd)">{{pd.varCustomerNIC}}</td>
+                <td (click)="populateForm(pd)">{{pd.varCustomerContactNo}}</td>
+                <td>
+                    <i class="far fa-trash-alt fa-lg text-danger" (click)="onDelete(pd.numCustomerID)"></i> 
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>

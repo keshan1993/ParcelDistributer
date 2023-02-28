@@ -1,0 +1,33 @@
+<div class="row">
+    <h1 class="display-4">Invoice Details</h1>
+    <div class="col-md-12">
+        <table class="table">
+            <thead class="thead-light">
+                <tr>
+                    <th>Booking No</th>
+                    <th>Creadted Date</th>
+                    <th>Customer</th>
+                    <th>Delivery Date</th>
+                    <th>Distance</th>
+                    <th>Goods Type</th>
+                    <th>Driver</th>
+                    <th>Weight</th>                    
+                    <th>Price</th>
+                    <th>Delivery Status</th>
+                </tr>
+            </thead>
+            <tr *ngFor="let pd of service.list">
+                <td>{{pd.varBookingNo}}</td>
+                <td>{{pd.dtCreatedDate}}</td>
+                <td>{{pd.varCustomerName}}</td>
+                <td>{{pd.dtDeliveryDate}}</td>
+                <td>{{pd.varFromAddress}} - {{pd.varToAddress}} ({{pd.numDistance}} KM)</td>
+                <td>{{pd.varGoodsTypeName}}</td>
+                <td>{{pd.varDriverName}}</td>    
+                <td>{{pd.numWeight}}</td> 
+                <td>{{pd.numPrice}}</td> 
+                <td>{{pd.bitIsCompleted === true ? "Delivered" : "Pending"}}</td>
+            </tr>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+C:\Users\ESyAdmin\Desktop\QualitApps\ParcelDistributer\ParcelDistributer.DataAccess\bin\Debug\net6.0\ParcelDistributer.DataAccess.deps.json
+C:\Users\ESyAdmin\Desktop\QualitApps\ParcelDistributer\ParcelDistributer.DataAccess\bin\Debug\net6.0\ParcelDistributer.DataAccess.runtimeconfig.json
+C:\Users\ESyAdmin\Desktop\QualitApps\ParcelDistributer\ParcelDistributer.DataAccess\bin\Debug\net6.0\ParcelDistributer.DataAccess.dll
+C:\Users\ESyAdmin\Desktop\QualitApps\ParcelDistributer\ParcelDistributer.DataAccess\bin\Debug\net6.0\ParcelDistributer.DataAccess.pdb
+C:\Users\ESyAdmin\Desktop\QualitApps\ParcelDistributer\ParcelDistributer.DataAccess\obj\Debug\net6.0\ParcelDistributer.DataAccess.csproj.AssemblyReference.cache
+C:\Users\ESyAdmin\Desktop\QualitApps\ParcelDistributer\ParcelDistributer.DataAccess\obj\Debug\net6.0\ParcelDistributer.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ESyAdmin\Desktop\QualitApps\ParcelDistributer\ParcelDistributer.DataAccess\obj\Debug\net6.0\ParcelDistributer.DataAccess.AssemblyInfoInputs.cache
+C:\Users\ESyAdmin\Desktop\QualitApps\ParcelDistributer\ParcelDistributer.DataAccess\obj\Debug\net6.0\ParcelDistributer.DataAccess.AssemblyInfo.cs
+C:\Users\ESyAdmin\Desktop\QualitApps\ParcelDistributer\ParcelDistributer.DataAccess\obj\Debug\net6.0\ParcelDistributer.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ESyAdmin\Desktop\QualitApps\ParcelDistributer\ParcelDistributer.DataAccess\obj\Debug\net6.0\ParcelDistributer.DataAccess.dll
+C:\Users\ESyAdmin\Desktop\QualitApps\ParcelDistributer\ParcelDistributer.DataAccess\obj\Debug\net6.0\refint\ParcelDistributer.DataAccess.dll
+C:\Users\ESyAdmin\Desktop\QualitApps\ParcelDistributer\ParcelDistributer.DataAccess\obj\Debug\net6.0\ParcelDistributer.DataAccess.pdb
+C:\Users\ESyAdmin\Desktop\QualitApps\ParcelDistributer\ParcelDistributer.DataAccess\obj\Debug\net6.0\ParcelDistributer.DataAccess.genruntimeconfig.cache
+C:\Users\ESyAdmin\Desktop\QualitApps\ParcelDistributer\ParcelDistributer.DataAccess\obj\Debug\net6.0\ref\ParcelDistributer.DataAccess.dll
